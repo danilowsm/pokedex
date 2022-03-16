@@ -23,15 +23,17 @@ btnBusca.onclick = () => {
             let peso = document.querySelector('#peso')
             let numeroId = document.querySelector('#numero-id')
             let linkPerfil = document.querySelector('#link-perfil')
+            let imageInto = document.querySelector('#image-intro')
 
-
+            imageInto.style.display = 'none'
             cardPokemon.style.display = 'block'
             avatar.src = dados.sprites.other["official-artwork"].front_default
             nomeTipo.innerText = `${dados.name} Pokémon Type ${dados.types[0].type.name}`
-            altura.innerText = `Height: ${dados.height} m`
+            altura.innerText = `Height: ${dados.height/10} m`
             peso.innerText = `Weight: ${dados.weight / 10} kg`
             numeroId.innerText = `nº${dados.id}`
             linkPerfil.href = `https://api.pokemon.com/br/pokedex/${pokemonName}`
+          
             console.log(dados)
 })
 
@@ -47,7 +49,7 @@ btnBusca.onclick = () => {
 
             let bio = document.querySelector('#bio')
 
-            bio.innerText = dados.flavor_text_entries[Math.floor(Math.random() * 22)].flavor_text
+            bio.innerText = dados.flavor_text_entries[Math.floor(Math.random() * 16)].flavor_text
             console.log(dados)
 })
 
