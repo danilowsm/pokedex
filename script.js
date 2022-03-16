@@ -28,7 +28,7 @@ btnBusca.onclick = () => {
 
             cardPokemon.style.display = 'block'
             avatar.src = dados.sprites.other["official-artwork"].front_default
-            nomeTipo.innerText = `${dados.name} - Pokémon Tipo ${dados.types[0].type.name}`
+            nomeTipo.innerText = `${dados.name} Pokémon Tipo ${dados.types[0].type.name}`
             altura.innerText = `Altura: ${dados.height} m`
             peso.innerText = `Peso: ${dados.weight/10} kg`
             bio.innerText = dados.bio

@@ -1,3 +1,5 @@
+
+
 body {
     background-color: black;
     height: 100%;
@@ -5,7 +7,7 @@ body {
 
 * {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Press Start 2P', cursive;
     color: #f8f8f2;
     margin: 0%;
     font-size: 20px;
@@ -20,12 +22,13 @@ input, button, select {
     background-color: #44475a;
     border: 1px solid #44475a;
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .p {
     margin: 0px;
-    font-size: 5px;
+    font-size: 3px;
+    line-height: 1.5
     
 }
 
@@ -46,7 +49,8 @@ h1 {
 }
 
 h2{
-    font-size: 25px;
+    font-size: 13px;
+    line-height: 1.5;
     margin: auto;
 }
 
@@ -67,7 +71,7 @@ img {
 
 
 [id=numero-id]{
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     margin-top: 10px;  
    } 
@@ -87,10 +91,10 @@ img {
     flex-direction: row;
     gap: 10px;
     margin-top: 10px;
-}
+  }
 
 [id=altura]{
-    margin-top: 20px;
+    margin-top: 12px;
 }
 
 [id=nome-tipo]{
@@ -98,7 +102,9 @@ img {
 }
 
 [id=peso]{
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+    line-height: 1.5
+    
 }
 
 
@@ -109,3 +115,13 @@ img {
 [id=main-container] {
     display: none ;
 }  
+
+[id=btn-busca] {
+    font-size: 12px;
+    line-height: 1.5
+}  
+
+[id=link-perfil] {
+    font-size: 12px;
+    line-height: 1.5
+} 
