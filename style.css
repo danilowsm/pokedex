@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f8f8f2;
+    margin: 0%;
+    font-size: 20px;
+    
+}
+
+
+
+input, button, select {
+    width: 100%;
+    padding: 10px;
+    background-color: #44475a;
+    border: 1px solid #44475a;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.p {
+    margin: 0px;
+    font-size: 5px;
+    
+}
+
+select {
+    width: 400px;
+}
+
+button {
+    background-color: #AD3E45;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
+    margin: auto;
+}
+
+.description-container{
+    box-shadow: 0px 0px 0px 5px #DA635D;
+    display: flex;
+    margin-top: 20px;
+    height: 200px ;
+}
+
+img {
+    max-width: 100%;
+    width: 200px;
+    background-color: #f8f8f2;
+    margin: auto;
+     
+}
+
+
+[id=numero-id]{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;  
+   } 
+
+.container {
+    width: 380px;
+    border: 1px #44475a solid;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+[id=altura]{
+    margin-top: 20px;
+}
+
+[id=nome-tipo]{
+    text-transform: capitalize;
+}
+
+[id=peso]{
+    margin-bottom: 20px;
+}
+
+
+.bio{
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 0px 5px #DA635D;
+}
+[id=main-container] {
+    display: none ;
+}  

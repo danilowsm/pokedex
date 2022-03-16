@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokédex</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pokédex</h>
+            <div id="main-container">
+                <div class="description-container">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+                        id="avatar" alt="Avatar do pokémon">
+                    <h2 id="nome-tipo"> Pikachu, Pokémon Elétrico </h2>
+                </div>
+
+                <p id="numero-id">nº 1</p>
+                <p id="altura">Altura: 0,70 cm</p>
+                <p id="peso"> Peso: 10 kg </p>
+                <div class="bio">
+                <p id="bio"> There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger. </p>
+            </div>
+                <a id="link-perfil" href="#" target="_blank">Perfil Completo</a>
+            </div>
+
+            <div class="input-container">
+                <input type="text" id="pokemon-name" placeholder="ex: Pikachu">
+                <button id="btn-busca">Buscar Pokémon</button>
+            </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
